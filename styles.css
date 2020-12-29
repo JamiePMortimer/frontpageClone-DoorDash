@@ -23,13 +23,72 @@ body{
   background-color: pink;
 }
 
+/* Footer Section */
+
 .footer{
   width: 100%;
   height: 130vh;
   background-color: black;
   color: white;
 }
+
 .bottom{
   width: 100%;
   height: 3vh;
+}
+
+li{
+  list-style: none;
+}
+
+.top-footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left-footer{
+  border: 1px solid white;
+  width:50%;
+  height: 53vh;
+}
+.top-right-footer{
+  border: 1px solid white;
+  width:50%;
+  height: 53vh;
+}
+
+.mid-footer{
+  display: flex;
+  flex-direction: row;
+}
+.bottom-footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.mid-left-footer{
+  border: 1px solid white;
+  width:75%;
+  height: 64vh;
+}
+.mid-right-footer{
+  border: 1px solid white;
+  width:25%;
+  height: 64vh;
+}
+.bottom-left-footer{
+  border: 1px solid white;
+  width:75%;
+  height: 12vh;
+}
+.bottom-right-footer{
+  border: 1px solid white;
+  width:25%;
+  height: 12vh;
+}
+
+.bottom{
+  width: 100%;
+  height: 20px;
+  background-color: tomato;
 }
