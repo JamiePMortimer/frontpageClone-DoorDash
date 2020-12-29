@@ -1,0 +1,35 @@
+body{
+  font: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.top{
+  width: 100%;
+  height: 97vh;
+  background-color: red;
+  color: white;
+}
+
+.second{
+  width: 100%;
+  height: 150vh;
+  background-color: white;
+}
+
+.third{
+  width: 100%;
+  height: 110vh;
+  background-color: pink;
+}
+
+.footer{
+  width: 100%;
+  height: 130vh;
+  background-color: black;
+  color: white;
+}
+.bottom{
+  width: 100%;
+  height: 3vh;
+}
