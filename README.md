@@ -6,6 +6,7 @@ To practice HTML & CSS, specifically positioning elements and divs for use on de
 
 
 ### Progress
+Top Section: Complete with all elements.
 
 ## DEMO 
 ```
