@@ -3,13 +3,17 @@ body{
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+a, a:hover, a:active, a:focus{
+text-decoration: none;
+color:inherit
 }
 
 /* Top Section */
 
 .top-nav{
-/* position: absolute; */
 width: 100%;
 height: 100px;
 }
@@ -30,24 +34,26 @@ height: 100px;
   padding-right: 24px;
 }
 
-.signUp{
+#signUp{
   min-height: 40px;
   margin: 10px 20px;
+  color: white;
 }
 
 #signBtn{
   padding: 0 15px;
   background-color: white;
-  color: black;
+  color: rgb(77, 77, 77);
   border: none;
   border-radius: 25px;
   min-height: 40px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
+
 }
 
 #header-logo{
-  width: 18%;
+  width: 225px;
   height: auto;
   padding-top: 2%;
 }
@@ -66,14 +72,7 @@ height: 100px;
   max-width: 670px;
   font-weight: 700;
   font-size: 4rem;
-  margin-top: 75px;
-}
-
-/* Search Section */
-
-.top-search{
-  width: 100%;
-  height: 100px;
+  margin-top: 70px;
 }
 
 .top{
@@ -86,6 +85,51 @@ height: 100px;
   background-repeat: no-repeat;
   background-image: url('images/header.png');
 }
+
+/* Search Section */
+
+.top-search{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.searchBarHolder{
+  position: relative;
+}
+
+#searchBar{
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid white;
+  text-align: left;
+  height: 40px;
+  outline: none;
+  min-width: 360px;
+  padding-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+#searchBarSubmit{
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  background-color: red;
+  border: 1px transparent;
+  border-radius: 38px;
+  right: 0;
+  margin-right: 4px;
+  margin-top: 23px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Second Section */
 
 .second{
   width: 100%;
