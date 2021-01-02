@@ -135,7 +135,6 @@ a:focus {
 
 .second {
   width: 100%;
-  height: 150vh;
   background-color: white;
 }
 
@@ -151,8 +150,7 @@ a:focus {
 .second-top {
   display: flex;
   margin-top: 130px;
-  height: 440px;
-  border: 1px solid black;
+  height: 430px;
 }
 
 .sec-top-left {
@@ -184,37 +182,70 @@ a:focus {
 
 .second-bottom {
   display: flex;
-  
-  text-align: center;
+  text-align: left;
+  height: 500px;
 }
 
 .sec-bot-left{
   padding-top: 80px;
-  background-color: plum;
   max-width: 40%;
 }
 
 .s-b-l{
-  padding: 0 80px;
+  padding: 0 65px;
 }
 
-.sec-bot-right{
-  background-color: powderblue;
-}
-
-.bot-pics{
-  width: 110%;
+.f1{
+  width: 120%;
   height: auto;
+}
+
+#find-res-btn{
+  background-color: red;
+  border-radius: 25px;
+  width: 160px;
+  min-height: 40px;
+  padding: 0 15px;
+  color: white;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 /* Third Section */
 
 .third {
+  display: flex;
   width: 100%;
-  height: 110vh;
-  background-color: pink;
+  height: 730px;
+  background-color: #ffeef2d9;
 }
 
+.third-right{
+  padding: 200px 45px 0 45px;
+}
+
+.f2{
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 720px;
+  height: auto;
+}
+
+/* .t-r{
+  padding: 0 65px;
+} */
+#order-btn{
+  background-color: red;
+  border-radius: 25px;
+  width: 110px;
+  min-height: 40px;
+  padding: 0 15px;
+  color: white;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
 /* Footer Section */
 
 .footer {
