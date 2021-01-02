@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -6,41 +6,44 @@ body{
   font-size: 1.1rem;
 }
 
-a, a:hover, a:active, a:focus{
-text-decoration: none;
-color:inherit
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Top Section */
 
-.top-nav{
-width: 100%;
-height: 100px;
+.top-nav {
+  width: 100%;
+  height: 100px;
 }
 
-.top-nav-left{
+.top-nav-left {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.top-nav-right{
+.top-nav-right {
   position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content:flex-end;
+  justify-content: flex-end;
   right: 0;
   width: 100%;
   margin-top: 17px;
   padding-right: 24px;
 }
 
-#signUp{
+#signUp {
   min-height: 40px;
   margin: 10px 20px;
   color: white;
 }
 
-#signBtn{
+#signBtn {
   padding: 0 15px;
   background-color: white;
   color: rgb(77, 77, 77);
@@ -49,10 +52,9 @@ height: 100px;
   min-height: 40px;
   font-size: 0.95rem;
   font-weight: 700;
-
 }
 
-#header-logo{
+#header-logo {
   width: 225px;
   height: auto;
   padding-top: 2%;
@@ -60,14 +62,14 @@ height: 100px;
 
 /* Heading Section */
 
-.top-heading{
+.top-heading {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 220px;
 }
 
-.strap{
+.strap {
   text-align: center;
   max-width: 670px;
   font-weight: 700;
@@ -75,7 +77,7 @@ height: 100px;
   margin-top: 70px;
 }
 
-.top{
+.top {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -88,18 +90,18 @@ height: 100px;
 
 /* Search Section */
 
-.top-search{
+.top-search {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 100px;
 }
 
-.searchBarHolder{
+.searchBarHolder {
   position: relative;
 }
 
-#searchBar{
+#searchBar {
   margin-top: 20px;
   background-color: white;
   border-radius: 25px;
@@ -113,7 +115,7 @@ height: 100px;
   font-size: 1.1rem;
 }
 
-#searchBarSubmit{
+#searchBarSubmit {
   position: absolute;
   height: 38px;
   width: 38px;
@@ -131,50 +133,65 @@ height: 100px;
 
 /* Second Section */
 
-.second{
+.second {
   width: 100%;
   height: 150vh;
   background-color: white;
 }
 
-.second-top{
+.second h2{
+  margin-top: 0;
+}
+
+.second a{
+  font-weight: 800;
+  color: red;
+}
+
+.second-top {
   display: flex;
+  margin-top: 130px;
   height: 600px;
   border: 1px solid black;
 }
 
-.sec-top-left{
+.sec-top-left {
+  padding: 0 0 0 70px;
   text-align: center;
   width: 33%;
   height: 100%;
-  background-color: salmon;
+  background-color: plum;
 }
 
-.sec-top-mid{
+.sec-top-mid {
+  padding: 0 0 0 70px;
+  text-align: center;
+  width: 34%;
+  height: 100%;
+  background-color: pink;
+}
+
+.sec-top-right {
+  padding: 0 0 0 70px;
+  text-align: center;
   width: 33%;
   height: 100%;
-  background-color: red;
+  background-color: plum;
 }
 
-.sec-top-right{
-  width: 33%;
-  height: 100%;
-  background-color: orange;
+.mid-pics {
+  width: 40%;
+  height: auto;
 }
 
-.mid-pics{
-  width: 35%;
-  height:auto;
-}
-
-.second-bottom{
+.second-bottom {
   height: 100px;
   background-color: royalblue;
 }
 
 /* Third Section */
 
-.third{
+.third {
   width: 100%;
   height: 110vh;
   background-color: pink;
@@ -182,69 +199,69 @@ height: 100px;
 
 /* Footer Section */
 
-.footer{
+.footer {
   width: 100%;
   height: 130vh;
   background-color: black;
   color: white;
 }
 
-.bottom{
+.bottom {
   width: 100%;
   height: 3vh;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.top-footer{
+.top-footer {
   display: flex;
   flex-direction: row;
 }
 
-.top-left-footer{
+.top-left-footer {
   border: 1px solid white;
-  width:50%;
+  width: 50%;
   height: 53vh;
 }
-.top-right-footer{
+.top-right-footer {
   border: 1px solid white;
-  width:50%;
+  width: 50%;
   height: 53vh;
 }
 
-.mid-footer{
+.mid-footer {
   display: flex;
   flex-direction: row;
 }
-.bottom-footer{
+.bottom-footer {
   display: flex;
   flex-direction: row;
 }
 
-.mid-left-footer{
+.mid-left-footer {
   border: 1px solid white;
-  width:75%;
+  width: 75%;
   height: 64vh;
 }
-.mid-right-footer{
+.mid-right-footer {
   border: 1px solid white;
-  width:25%;
+  width: 25%;
   height: 64vh;
 }
-.bottom-left-footer{
+.bottom-left-footer {
   border: 1px solid white;
-  width:75%;
+  width: 75%;
   height: 12vh;
 }
-.bottom-right-footer{
+.bottom-right-footer {
   border: 1px solid white;
-  width:25%;
+  width: 25%;
   height: 12vh;
 }
 
-.bottom{
+.bottom {
   width: 100%;
   height: 20px;
   background-color: tomato;
