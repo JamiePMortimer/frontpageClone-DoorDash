@@ -151,7 +151,7 @@ a:focus {
 .second-top {
   display: flex;
   margin-top: 130px;
-  height: 600px;
+  height: 440px;
   border: 1px solid black;
 }
 
@@ -160,7 +160,6 @@ a:focus {
   text-align: center;
   width: 33%;
   height: 100%;
-  background-color: plum;
 }
 
 .sec-top-mid {
@@ -168,15 +167,14 @@ a:focus {
   text-align: center;
   width: 34%;
   height: 100%;
-  background-color: pink;
 }
 
 .sec-top-right {
-  padding: 0 0 0 70px;
+  padding: 0 70px 0 70px;
   text-align: center;
   width: 33%;
   height: 100%;
-  background-color: plum;
+  
 }
 
 .mid-pics {
@@ -185,8 +183,28 @@ a:focus {
 }
 
 .second-bottom {
-  height: 100px;
-  background-color: royalblue;
+  display: flex;
+  
+  text-align: center;
+}
+
+.sec-bot-left{
+  padding-top: 80px;
+  background-color: plum;
+  max-width: 40%;
+}
+
+.s-b-l{
+  padding: 0 80px;
+}
+
+.sec-bot-right{
+  background-color: powderblue;
+}
+
+.bot-pics{
+  width: 110%;
+  height: auto;
 }
 
 /* Third Section */
