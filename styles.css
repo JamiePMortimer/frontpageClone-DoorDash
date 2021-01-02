@@ -137,6 +137,43 @@ height: 100px;
   background-color: white;
 }
 
+.second-top{
+  display: flex;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.sec-top-left{
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  background-color: salmon;
+}
+
+.sec-top-mid{
+  width: 33%;
+  height: 100%;
+  background-color: red;
+}
+
+.sec-top-right{
+  width: 33%;
+  height: 100%;
+  background-color: orange;
+}
+
+.mid-pics{
+  width: 35%;
+  height:auto;
+}
+
+.second-bottom{
+  height: 100px;
+  background-color: royalblue;
+}
+
+/* Third Section */
+
 .third{
   width: 100%;
   height: 110vh;
