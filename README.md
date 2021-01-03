@@ -14,6 +14,7 @@ Changing the unordered list from vertical to horizontal proved tricky, one of th
 
 ## Tools
 Fonts: [Google Font](https://fonts.google.com/)
+
 Social Icons: [Font Awesome](https://fontawesome.com/)
 
 ## DEMO 
