@@ -12,6 +12,10 @@ Positioning within divs took a while and a lot of trial and error and not sure i
 
 Changing the unordered list from vertical to horizontal proved tricky, one of the gaps in knowledge I was aware of prior to starting this challenge.
 
+## Tools
+Fonts: [Google Font](https://fonts.google.com/)
+Social Icons: [Font Awesome](https://fontawesome.com/)
+
 ## DEMO 
 ```
 [Github Page](https://jamiepmortimer.github.io/frontpageClone-DoorDash/)
