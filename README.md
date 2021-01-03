@@ -18,6 +18,5 @@ Fonts: [Google Font](https://fonts.google.com/)
 Social Icons: [Font Awesome](https://fontawesome.com/)
 
 ## DEMO 
-```
+
 [Github Page](https://jamiepmortimer.github.io/frontpageClone-DoorDash/)
-```
